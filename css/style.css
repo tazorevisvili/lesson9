@@ -1,0 +1,212 @@
+                    /* n a v */
+.bg-image{
+	background-image: url('../img/bgimg.jpg');
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.test{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-top: 40px;
+}
+
+@media (max-width: 969px) {
+    .navigation {
+		display: none;
+	}
+	.burger {
+		display: block;
+	}
+} 
+
+.burger{
+	display: none;
+}
+
+.fa-align-right{
+	font-size: 30px;
+	color: white;
+}
+
+.nav .nav-menu{
+	color: #D9F0FF;
+    padding-right: 80px;
+    font-weight: bold;
+}
+
+.nav{
+	display: flex;
+    justify-content: flex-end;
+}
+
+.main{
+	display: flex;
+	justify-content: flex-start;
+	color: #D9F0FF;
+    font-size: 30px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.text{
+	color: white;
+	font-size: 40px;
+    padding-top: 150px;
+    padding-left: 60px;
+	font-weight: bold;
+}
+.text-below{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 65px;
+    font-weight: bold;
+}
+
+                       /* google map */
+.google-map{
+   height: 250px;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 80px;
+}
+
+.map{
+	padding-top: 20px;
+	width: 100%;
+	height: 100%;
+}
+                             /*title*/
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 82px;
+}                             
+
+                           /* c a r d s */
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 64px;
+}
+
+.cards .card{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	width: 371px;
+	height: 374px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;	border: 0.5px solid #CECECE;
+    text-align: center;
+}
+.icon{
+	width: 88px;
+	height: 88px;
+	background-color: #325DFF;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card h4{
+	font-weight: bold;
+	padding-top: 55px;
+	padding-bottom: 9px;
+}
+.card p{
+	padding-left: 60px;
+	padding-right: 60px;
+	color: grey;
+	letter-spacing: 0.16px;
+}
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 130px;
+	padding-top: 50px;
+}
+.img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 64px;
+	padding-bottom: 20px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background-color: #0d0d0d;
+	color: white;
+}
+.about{
+	width: 200px
+}
+footer h3{
+	padding-bottom: 15px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.ul li{
+	padding: 3px;
+	color: #252574;
+	cursor: pointer;
+}
+.about p{
+	padding: 3px;
+}
+footer .facebook{
+    font-size: 40px;
+    color: #3b5998;
+    padding: 5px;
+}
+footer .twitter{
+    font-size: 40px;
+    color: #00acee;
+    padding-right: 10px;
+}
+footer .google{
+    font-size: 40px;
+    color: #db4a39;
+}
+                           /*c o n t a c t*/
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}    
+.form{
+	padding: 10px;
+}       
+.form input{
+	width: 350px;
+	height: 60px;
+	padding: 10px;
+	font-size: 20px;
+}      
+.form-button button{
+	width: 350px;
+	height: 60px; 
+	padding: 10px;
+	font-size: 20px;
+	padding-left: 10px;
+	background-color: #5353c6;
+	cursor: pointer;
+}    
+.form-button{
+	padding: 10px;
+}  
